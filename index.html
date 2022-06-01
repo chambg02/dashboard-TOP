@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Project</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
 </head>
 <body>
     <div class="container">
@@ -16,7 +17,8 @@
                 CFA Pharmacist Dashboard
             </div>
             <div class="menu">
-                <p>Home</p>
+                <span class="mdi mdi-camera-off-outline"></span>
+                <p class="mdi mdi-account-lock-open">Home</p>
                 <p>Profile</p>
                 <p>Messages</p>
                 <p>History</p>
@@ -55,63 +57,94 @@
         </div>
 
         <div class="body">
-            <div class="projectsHeader">Your Projects</div>
+            <div class="projectsHeader">Current Orders</div>
             <div class="projects">
                 <div class = "card">
-                    <p class = "projectTitle">Placeholder Title</p>
-                    <p class = "projectDescription">Lorem ipsum dolor sit amet...</p>
+                    <p class = "projectTitle">Patient Name</p>
+                    <p class = "projectDescription">Celebrex</p>
+                    <p class = "status">Status: Being Dispensed.</p>
                 </div>
                 <div class = "card">
-                    <p class = "projectTitle">Placeholder Title</p>
-                    <p class = "projectDescription">Lorem ipsum dolor sit amet...</p>
+                    <p class = "projectTitle">Patient Name</p>
+                    <p class = "projectDescription">Hydroxychloroquine</p>
+                    <p class = "status">Status: Received.</p>
                 </div>
                 <div class = "card">
-                    <p class = "projectTitle">Placeholder Title</p>
-                    <p class = "projectDescription">Lorem ipsum dolor sit amet...</p>
+                    <p class = "projectTitle">Patient Name</p>
+                    <p class = "projectDescription">Amoxicillin</p>
+                    <p class = "status">Status: Ready for Collection.</p>
                 </div>
                 <div class = "card">
-                    <p class = "projectTitle">Placeholder Title</p>
-                    <p class = "projectDescription">Lorem ipsum dolor sit amet...</p>
+                    <p class = "projectTitle">Patient Name</p>
+                    <p class = "projectDescription">Doxycycline</p>
+                    <p class = "status">Status: Ready for Collection.</p>
                 </div>
                 <div class = "card">
-                    <p class = "projectTitle">Placeholder Title</p>
-                    <p class = "projectDescription">Lorem ipsum dolor sit amet...</p>
+                    <p class = "projectTitle">Patient Name</p>
+                    <p class = "projectDescription">Azithromicin</p>
+                    <p class = "status">Status: Ready for Collection.</p>
                 </div>
                 <div class = "card">
-                    <p class = "projectTitle">Placeholder Title</p>
-                    <p class = "projectDescription">Lorem ipsum dolor sit amet...</p>
+                    <p class = "projectTitle">Patient Name</p>
+                    <p class = "projectDescription">Celexa</p>
+                    <p class = "status">Status: Ready for Collection.</p>
                 </div>
                 <div class = "card">
-                    <p class = "projectTitle">Placeholder Title</p>
-                    <p class = "projectDescription">Lorem ipsum dolor sit amet...</p>
+                    <p class = "projectTitle">Patient Name</p>
+                    <p class = "projectDescription">Prozac</p>
+                    <p class = "status">Status: Ready for Collection.</p>
                 </div>
                 <div class = "card">
-                    <p class = "projectTitle">Placeholder Title</p>
-                    <p class = "projectDescription">Lorem ipsum dolor sit amet...</p>
+                    <p class = "projectTitle">Patient Name</p>
+                    <p class = "projectDescription">Fluvoxamine</p>
+                    <p class = "status">Status: Ready for Collection.</p>
                 </div>
                 <div class = "card">
-                    <p class = "projectTitle">Placeholder Title</p>
-                    <p class = "projectDescription">Lorem ipsum dolor sit amet...</p>
+                    <p class = "projectTitle">Patient Name</p>
+                    <p class = "projectDescription">Doxycycline</p>
+                    <p class = "status">Status: Ready for Collection.</p>
                 </div>
                 <div class = "card">
-                    <p class = "projectTitle">Placeholder Title</p>
-                    <p class = "projectDescription">Lorem ipsum dolor sit amet...</p>
+                    <p class = "projectTitle">Patient Name</p>
+                    <p class = "projectDescription">Doxycycline</p>
+                    <p class = "status">Status: Ready for Collection.</p>
                 </div>
                 <div class = "card">
-                    <p class = "projectTitle">Placeholder Title</p>
-                    <p class = "projectDescription">Lorem ipsum dolor sit amet...</p>
+                    <p class = "projectTitle">Patient Name</p>
+                    <p class = "projectDescription">Doxycycline</p>
+                    <p class = "status">Status: Ready for Collection.</p>
                 </div>
                 <div class = "card">
-                    <p class = "projectTitle">Placeholder Title</p>
-                    <p class = "projectDescription">Lorem ipsum dolor sit amet...</p>
-                </div>
-                <div class = "card">
-                    <p class = "projectTitle">Placeholder Title</p>
-                    <p class = "projectDescription">Lorem ipsum dolor sit amet...</p>
+                    <p class = "projectTitle">Patient Name</p>
+                    <p class = "projectDescription">Doxycycline</p>
+                    <p class = "status">Status: Ready for Collection.</p>
                 </div>
             </div>
-            <div class="announcements">Placeholder Announcements</div>
-            <div class="trending">Placeholder Trending</div>
+            <div class="announcements">Announcements
+                <div class="announceBoard">
+                    <div class="announcement">
+                        <p class = "announceTitle">Toilets Out of Order</p>
+                        <p class = "announceDescription">The shopping centre toilets are out of order. Staff toilets still operational.</p> 
+                    </div>
+                    <div class="announcement">
+                        <p class = "announceTitle">COVID Vaccinations</p>
+                        <p class = "announceDescription">Vaccination days are Tuesday and Thursday only. Bookings essential.</p> 
+                    </div>
+                    <div class="announcement">
+                        <p class = "announceTitle">RAT Tests Sold Out</p>
+                        <p class = "announceDescription">New stock expected to arrive next week.</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="nearby">Nearby Clinicians
+                <div class = "nearbyContainer">
+                    <p class = "clinician">Medical Centre</p>
+                    <p class = "clinician">Hospital</p>
+                    <p class = "clinician">Physiotherapist</p>
+                </div>
+
+
+            </div>
         </div>
 
     </div>
